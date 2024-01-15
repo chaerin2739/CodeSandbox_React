@@ -14,4 +14,4 @@ function sing() {
 function cry() {
   console.log("cry");
 }
-check("good", dance, cry);
+check("good", sing, cry);
