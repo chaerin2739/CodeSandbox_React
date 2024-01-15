@@ -1,10 +1,12 @@
 let person = {
-    key:"value",
-    key1: 123,
-    key2: true,
-    key3: undefined,
-    key4: [1,2],
-    key5: function () {}
-};
-
-console.log(person.key1);
+    name: "유채린",
+    age: 23
+  };
+  
+  person.location = "한국";
+  person["gender"] = "여성";
+  
+  person.name = "유채린 A";
+  person["age"] = 40;
+  console.log(person);
+  
