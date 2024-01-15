@@ -5,5 +5,5 @@ let person = {
       console.log(`안녕 나는 ${this.name}이야`);
     }
   };
-  person.say();
-  
+  //person.say();
+  console.log(`name : ${"name" in person}`);
