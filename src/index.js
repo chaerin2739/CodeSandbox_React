@@ -1,14 +1,9 @@
 let person = {
     name: "유채린",
-    age: 23
+    age: 23,
+    say: function () {
+      console.log(`안녕 나는 ${this.name}이야`);
+    }
   };
-  
-  person.location = "한국";
-  person["gender"] = "여성";
-  
-  person.name = "유채린 A";
-  person["age"] = 40;
-  
-  person.name = null;
-  console.log(person);
+  person.say();
   
