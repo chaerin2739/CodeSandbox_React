@@ -8,5 +8,7 @@ let person = {
   
   person.name = "유채린 A";
   person["age"] = 40;
+  
+  person.name = null;
   console.log(person);
   
