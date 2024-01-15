@@ -1,17 +1,10 @@
-function check(mood, goodCallback, badCallback) {
-  if (mood === "good") {
-    goodCallback();
-  } else {
-    badCallback();
-  }
-}
-function dance() {
-  console.log("dance");
-}
-function sing() {
-  console.log("sing");
-}
-function cry() {
-  console.log("cry");
-}
-check("good", sing, cry);
+let person = {
+    key:"value",
+    key1: 123,
+    key2: true,
+    key3: undefined,
+    key4: [1,2],
+    key5: function () {}
+};
+
+console.log(person.key1);
